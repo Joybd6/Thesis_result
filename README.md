@@ -17,7 +17,15 @@ Contains benchmarking data for Hybrid Henry Gas Solubility Algorithm
 `Triple_Check_Exploration.csv:`
 Contains benchmarking data for Triple Exploration Technique.
 
-#Examples for ploting the data
+# Examples
+To load the data and print the columns name:
+```
+import pandas as pd
+
+df = pd.read_csv('Hybrid_Henry_Gas.csv')
+print(df.columns)
+```
+
 For example, we want to plot the covergence of Rosenbrock benchmark function for Hybrid Henry Gas Solubility Algorithm:
 ```
 import pandas as pd
@@ -44,3 +52,4 @@ import pandas as pd
 df = pd.read_csv('Triple_Check_Exploration.csv')
 print(df.loc[99])
 ```
+
