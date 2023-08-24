@@ -17,7 +17,8 @@ Contains benchmarking data for Hybrid Henry Gas Solubility Algorithm
 `Triple_Check_Exploration.csv:`
 Contains benchmarking data for Triple Exploration Technique.
 
-# Examples
+## Examples
+
 To load the data and print the columns name:
 ```
 import pandas as pd
