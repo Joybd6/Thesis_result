@@ -29,3 +29,18 @@ plt.xlabel('Iteration')
 plt.ylabel('Convergence')
 plt.show()
 ```
+To get the global optimum value for each benchmark algorithm for HHGSO OR Triple Exploration Technique:
+HHGSO:
+```
+import pandas as pd
+
+df = pd.read_csv('Hybrid_Henry_Gas.csv')
+print(df.loc[99])
+```
+Triple Exploration Technique:
+```
+import pandas as pd
+
+df = pd.read_csv('Triple_Check_Exploration.csv')
+print(df.loc[99])
+```
