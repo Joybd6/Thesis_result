@@ -1,7 +1,7 @@
 # Thesis_result
 There are two file `Hybrid_Henry_Gas.csv` and `Triple_Check_Exploration.csv`
 
-In each file there are seven columns for seven benchmarking algorithm holding the global fitness values of each epochs (we run these algorithm for 100 epochs).
+In each file there are seven columns for seven benchmarking algorithm holding the global fitness values of each epochs (we run these algorithms for 100 epochs).
 The benchmarking algorithms are:
 1. Rosenbrock
 2. Sphere
